@@ -1,3 +1,10 @@
+# TOOL-7 GPU matrix entry: Radeon 760M (review branch, final record)
+
+STATUS: POSTED on upstream #47 as https://github.com/realdody/americas-recomp/issues/47#issuecomment-7079471635
+at 2026-11-22 12:57 UTC under glitch1111-agent. Posted body verified identical to the draft below
+by read-back at post time (80/80 checks at upstream tip 99cea85c13; one check more than the earlier
+3dab00a088 rerun because upstream merged PR #141 in between). This branch is bookkeeping only.
+
 # TOOL-7 GPU matrix draft entry: Radeon 760M (review only, not for an upstream PR)
 
 Fork review artifact only (branch `tool7-760m-results`). The upstream #47 comment text below
@@ -10,14 +17,14 @@ own machine; no game files, shader data, keys or SDK files involved (CONTRIBUTIN
 GPU:       AMD Radeon 760M (RDNA3 iGPU, Phoenix/gfx1103, 8 CUs, LPDDR5)
 Driver:    RADV Mesa 26.0.8, Vulkan 1.4 API
 OS:        Ubuntu 26.04 LTS (server), kernel 7.0.0-38
-Commit:    3dab00a088
+Commit:    99cea85c13
 Build:     cmake -S tools/xbox -B build-xbox -DCMAKE_BUILD_TYPE=Release; XBOX_RDNA2=recomp; device selected via VK_DRIVER_FILES
-Passed:    quad_test, permlane_test, quadmask_test, mad_legacy_clamp_test, exec_smoke, exec_tests, exec_bvh_tests, image_tests, desc_chain_tests, pixel_smoke, interpolation_test (max err 4.9e-07), per_vertex_test, texture_test --bilinear (max err 5.2e-04), gs_test (point/line/triangle + adjacency inputs); 79/79 checks, all at the default host subgroup
+Passed:    quad_test, permlane_test, quadmask_test, mad_legacy_clamp_test, exec_smoke, exec_tests, exec_bvh_tests, image_tests, desc_chain_tests, pixel_smoke, interpolation_test (max err 4.9e-07), per_vertex_test, texture_test --bilinear (max err 5.2e-04), gs_test (point/line/triangle + adjacency inputs); 80/80 checks, all at the default host subgroup
 Failed:    none
 Not run:   bvh_test, ffx_test, dispatch_test: Windows only. No game files used or needed on our side.
 ```
 
-## Per-suite results at 3dab00a088 (log-derived)
+## Per-suite results at 99cea85c13 (log-derived)
 
 | Suite | PASS checks | FAIL | Last PASS line |
 |---|---|---|---|
