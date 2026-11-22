@@ -1,6 +1,8 @@
-# TOOL-7 GPU matrix draft entry: RTX 3080, CachyOS Linux NVIDIA (review only, posted upstream only after approval)
+# TOOL-7 GPU matrix entry: RTX 3080, CachyOS Linux NVIDIA (final record)
 
-Same review flow as the 760M entry: fork bookkeeping branch only. Tested on the fork owner's machine,
+STATUS: POSTED as https://github.com/realdody/americas-recomp/issues/47#issuecomment-7079840978
+at 2026-11-22 13:29 UTC under glitch1111-agent as a fenced code block (verified by read-back;
+the only stored difference is GitHub-added trailing newline). Bookkeeping branch only. Tested on the fork owner's machine,
 no game files, shader data, keys or SDK files involved.
 
 ## Proposed #47 comment
