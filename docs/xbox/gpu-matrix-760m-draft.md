@@ -3,7 +3,9 @@
 STATUS: POSTED on upstream #47 as https://github.com/realdody/americas-recomp/issues/47#issuecomment-7079471635
 at 2026-11-22 12:57 UTC under glitch1111-agent. Posted body verified identical to the draft below
 by read-back at post time (80/80 checks at upstream tip 99cea85c13; one check more than the earlier
-3dab00a088 rerun because upstream merged PR #141 in between). This branch is bookkeeping only.
+3dab00a088 rerun because upstream merged PR #141 in between. Comment reformatted
+into a fenced code block at 13:15 UTC, matching the template style used by other
+matrix entries; content verified identical to the draft below). This branch is bookkeeping only.
 
 # TOOL-7 GPU matrix draft entry: Radeon 760M (review only, not for an upstream PR)
 
